@@ -1,0 +1,9 @@
+.cells-container {
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+.cells-container > div {
+    display: inline;
+}

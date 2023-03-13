@@ -1,0 +1,80 @@
+.new-cell-prompt {
+    align-items: center;
+    justify-content: center;
+    width: 5px;
+    color: black;
+    transition-property: all;
+    transition-duration: 1s;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1em;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.new-cell-prompt:hover {
+    background-color: rgb(33, 56, 56);
+    cursor: pointer;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1em;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:aliceblue;
+}
+
+.new-cell-prompt-active {
+    background-color: rgb(33, 56, 56);
+    cursor: pointer;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: all 0.5s ease;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.new-cell-prompt-active form {
+    margin: auto;
+    height: auto;
+}
+
+input, input:focus {
+    background-color: rgb(33, 56, 56);
+    border: none;
+    border-bottom: 1px solid darkslategrey;
+    margin-bottom: 10px;
+    color: aliceblue;
+    opacity: 0.9;
+    font-size: 1em;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+.new-cell-prompt-active button {
+    background-color: rgb(33, 56, 56);
+    border: 1px solid darkslategrey;
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: aliceblue;
+    opacity: 0.9;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    margin-right: 5px;
+    transition: all 1s ease;
+}
